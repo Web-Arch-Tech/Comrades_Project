@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+nav{
+    display: flex;
+    color: white;
+    padding-top: 20px;
+}
+.right{
+    display: flex;
+    gap: 54px;
+    margin-left: 532px;
+}
+.left{
+    margin-left: 135px;
+}
+.title{
+    font-family: "Syne";
+}
+button{
+    border: 2px solid white;
+    border-radius: 55px;
+    padding: 7px 19px;
+    color: white;
+    background-color: #130F40;
+    margin: 16px 0px;
+    cursor: pointer;
+}
+
