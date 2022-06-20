@@ -1,7 +1,7 @@
-div{
+.main{
     color: white; /* text-align: center; */ align-items: center; display: grid; place-items: center; padding-top: 8px;
 }
-p{
+.main-1{
     font-size: 120px; font-family: 'Syne', sans-serif; padding-top: 112px; margin: 0; color: rgb(12, 240, 252);
 }
 h3{

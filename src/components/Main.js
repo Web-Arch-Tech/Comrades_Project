@@ -3,8 +3,8 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <div>
-      <p>Together</p>
+    <div className="main">
+      <p className="main-1">Together</p>
       <h3>COMRADE</h3>
     </div>
   );

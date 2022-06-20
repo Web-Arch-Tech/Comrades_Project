@@ -1,0 +1,89 @@
+body{
+    background-color:#0E1D34;
+}
+.info-one{
+    margin-top: 200px;
+
+}
+
+.circles{
+    display: flex;
+    gap: 10px;
+    margin-left: 88px;
+
+    
+}
+
+span{
+    height: 28.24px;
+    width: 30px;
+    border-radius: 50%;
+   
+}
+.info-line{
+    color: #D9D9D9;
+    font-size: 67px;
+    font-weight: bolder;
+    width: 31%;
+    margin: 16px 117px;
+    padding: 80px;
+}
+.info-basic{
+    
+    gap: 60px;
+    font-weight: 500;
+    font-size: 41px;
+    color: #D9D9D9;
+}
+
+.info-three{
+padding-right: 66px;
+}
+.info-four{
+    padding-left: 26px;
+}
+.info-five{
+    padding-right: 105px;
+}
+.info-six{
+    padding-right: 36px;
+}
+
+.lines{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-left: 230px;
+}
+.circle1{
+background-color:  #D9D9D9;
+
+}
+.circle2{
+    
+    background-color:  #6E25D4;
+}
+.line{
+    display: flex;
+    gap: 35px;
+}
+.num{
+    font-size: 82px;
+    font-weight: 800;
+    /* font-family: "Syne"; */
+    padding-right: 30px;
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:rgb(147, 145, 145);
+    background-blend-mode:  darken;
+}
+.square-lines{
+    margin:4px  51px;
+    display: flex;
+    gap: 7px;
+}

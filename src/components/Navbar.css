@@ -20,8 +20,14 @@ button{
     border-radius: 55px;
     padding: 7px 19px;
     color: white;
-    background-color: #130F40;
+    background-color:#0E1D34;
     margin: 16px 0px;
+  /*   font-family: "Syne"; */
     cursor: pointer;
 }
+.btn :hover{
+background-color: white;
+color: #0E1D34;
+}
+
 

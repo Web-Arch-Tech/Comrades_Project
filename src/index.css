@@ -2,9 +2,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: rgb(13, 11, 44); */
+  background-image: url('../images/back.svg');
+  background-repeat: no-repeat;
   
-  background-color: 
-  #130F40;
+  
+
 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
