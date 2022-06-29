@@ -1,9 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+
 .main{
     color: white; /* text-align: center; */ align-items: center; display: grid; place-items: center; padding-top: 8px;
 }
 .main-1{
     font-size: 120px; font-family: 'Syne', sans-serif; padding-top: 112px; margin: 0; color: rgb(12, 240, 252);
 }
-h3{
-    font-size: 93px; font-family: 'Syne', sans-serif; padding-bottom: 33px; color: rgb(12, 240, 252);
+.comrade{
+    font-size: 93px; font-family: 'Syne', sans-serif; padding-bottom: 33px; color:  #7ED6DF;
+    margin-right: 56px;
+    font-size: 144px;
+}
+.main img{
+    margin-right: 66px;
+
+}
+.main{
+    gap: 17px;
+    margin-top: 200px;
+}
+.main-two h3{
+    font-family: "Syne";
+    text-align: center;
+    margin: 2px -51px;
+}
+.line-main{
+    border-left: 6px solid white;
+    height: 57px;
+    position:absolute;
 }

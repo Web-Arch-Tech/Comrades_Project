@@ -3,8 +3,9 @@ body {
   padding: 0;
   box-sizing: border-box;
   /* background-color: rgb(13, 11, 44); */
-  background-image: url('../images/back.svg');
-  background-repeat: no-repeat;
+  
+  background-repeat: repeat;
+  background-size: cover;
   
   
 

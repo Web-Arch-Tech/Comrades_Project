@@ -1,0 +1,32 @@
+.title{
+    color: white;
+}
+.footer{
+    height: 100vh;
+}
+
+.footer-info{
+    margin-top: 565px;
+    margin-left: 46px;
+}
+.foot-i{
+    
+    color:rgb(147, 145, 145);
+    margin-left: 92px;
+
+}
+.pic img{
+    max-height: 95px;
+    margin-top: -63px;
+    margin-left: 1154px;
+
+}
+.pics{
+    height: 60px;
+
+}
+.social{
+    display: flex;
+        gap: 24px;
+        margin-top: 450px;
+}

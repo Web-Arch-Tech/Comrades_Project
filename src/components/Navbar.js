@@ -1,12 +1,20 @@
 import React from "react";
 import "./Navbar.css";
+import Signup from "./Signup";
+import { useNavigate, Link } from "react-router-dom";
 
 const Navbar = () => {
+  const routeChange = () => {
+    <Link to="/signup">
+      <Signup />{" "}
+    </Link>;
+  };
+
   return (
     <div>
       <nav>
         <div className="title left">
-          <h4>COMRADE</h4>
+          <h4 className="title">COMRADE</h4>
         </div>
         <div className="right">
           <div className="about">
@@ -19,7 +27,9 @@ const Navbar = () => {
             <h5>CONTRIBUTIONS</h5>
           </div>
           <div className="btn">
-            <button>SIGN UP</button>
+            <Link to="/signup">
+              <button>Sign Up</button>
+            </Link>
           </div>
         </div>
       </nav>
