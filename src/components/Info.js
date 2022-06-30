@@ -3,7 +3,7 @@ import "./Info.css";
 
 const Info = () => {
   return (
-    <div className="info-one">
+    <div className="info-one" data-aos="zoom-in">
       <div className="circles">
         <span className="circle1"></span>
         <span className="circle2"></span>

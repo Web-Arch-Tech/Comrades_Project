@@ -3,7 +3,7 @@ import "./Verification.css";
 
 const Verification = () => {
   return (
-    <div>
+    <div data-aos="zoom-in">
       <div className="circles-new">
         <span className="circle-1"></span>
         <span className="circle-2"></span>

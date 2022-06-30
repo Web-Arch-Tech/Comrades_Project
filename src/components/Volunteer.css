@@ -8,18 +8,30 @@
 .info-line-2{
     color: #D9D9D9; font-size: 114px; font-weight: bolder; margin-left: 133px; margin-top: -110px;}
 .volunteer-whole{
-    height: 100vh;
+    height: 80vh;
 }
 .container-counter{
-    /* rgba(46, 240, 194, 1)
-rgba(94, 93, 93, 0) */
-
-border: 
-1px solid rgba(46, 240, 194, 1);
+    background-image: linear-gradient(
+        90deg,
+        hsl(161deg 79% 24%) 0%,
+        hsl(157deg 60% 27%) 9%,
+        hsl(153deg 50% 29%) 18%,
+        hsl(149deg 42% 31%) 28%,
+        hsl(147deg 36% 31%) 38%,
+        hsl(144deg 30% 31%) 47%,
+        hsl(142deg 26% 31%) 56%,
+        hsl(145deg 34% 30%) 65%,
+        hsl(148deg 46% 29%) 73%,
+        hsl(152deg 66% 26%) 80%,
+        hsl(151deg 60% 24%) 87%,
+        hsl(149deg 55% 21%) 94%,
+        hsl(148deg 49% 19%) 100%
+      );
+/* border: 1px solid rgba(46, 240, 194, 1); */
     height: 168px;
     width: 824px;
     margin-left: 437px;
-    margin-top: -24px;
+    margin-top: 104px;
     border-radius: 31px;
     display: flex;
     background-color: white /* rgba(46, 240, 194, 1) ;*/
@@ -29,16 +41,14 @@ border:
 
 
  .day{
-    border-left: 2px solid black;
+    border-left: 2px solid white;
     height: 167px;
     margin-left: 257px;
 }
-.volunteer-new{border-left: 2px solid black;
+.volunteer-new{border-left: 2px solid white;
     height: 167px;
     margin-left: 309px;}
- .year{border-left: 2px solid black;
-    height: 167px;
-    margin-left: 409px;
+ .year{
 
  }
  .square-box-new-one{

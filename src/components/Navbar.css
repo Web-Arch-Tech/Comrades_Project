@@ -3,6 +3,17 @@ nav{
     display: flex;
     color: white;
     padding-top: 20px;
+   
+}
+#navBar{
+    margin-top: -20px;
+}
+.navbar-whole{
+    background-image: url('/images/bg-3.png'
+    ); 
+    background-repeat: repeat;
+    background-size: cover;
+    height: 150vh;
 }
 .right{
     display: flex;
@@ -29,9 +40,72 @@ button{
   /*   font-family: "Syne"; */
     cursor: pointer;
 }
+.right img{
+    display: none;
+}
 /* .btn :hover{
 background-color: white;
 color: #0E1D34;
 } */
+
+
+@media  screen and (max-width:600px) {
+.title{
+    font-size: 14px;
+    margin-left: 62px;
+}
+.title-left{
+    margin-left: -15px;
+}
+
+.nav{
+    margin-left: -67px;
+
+}
+.right{
+    flex-direction: column;
+    margin-left: 65px;
+    font-size: 15px;
+}
+.right img{
+    display: inline-block;
+    font-size: 1.8rem;
+    cursor: pointer;
+    height: 30px;
+}
+.main{
+    margin-left: 34px;
+
+}
+.comrade{
+    font-size: 22px;
+    margin-right: 988px;
+}
+
+.main-2{
+    margin-left: -800px;
+    margin-bottom: -143px;
+}
+
+.main img{
+    margin-right: 776px;
+    height: 89px;
+}
+.info-line{
+    font-size: 57px;
+    /* height: 30px; */
+    margin-left: -49px;
+    
+    margin-top: -48px;
+}
+.info-three{
+    font-size: 21px;
+    margin-left: -199px;
+}
+.number1{
+    margin-left: 34px;
+}
+
+}
 
 

@@ -1,9 +1,16 @@
 import React from "react";
 import "./Navbar.css";
 import Signup from "./Signup";
-import { useNavigate, Link } from "react-router-dom";
+import AOS from "aos";
+import { useEffect } from "react";
+
+import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const routeChange = () => {
     <Link to="/signup">
       <Signup />{" "}
@@ -11,10 +18,15 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-      <nav>
+    <div className="navbar-whole">
+      <nav id="navBar">
         <div className="title left">
           <h4 className="title">COMRADE</h4>
+        </div>
+        <div className="sandwitch">
+          <div className="line-1"></div>
+          <div className="line-2"></div>
+          <div className="line-3"></div>
         </div>
         <div className="right">
           <div className="about">
@@ -31,8 +43,21 @@ const Navbar = () => {
               <button>Sign Up</button>
             </Link>
           </div>
+          <img src="/menu.png" alt="" />
         </div>
       </nav>
+
+      <div className="main" data-aos="zoom-in">
+        {/* <p className="main-1">Together</p> */}
+        <img src="/king.png" alt="" />
+
+        <h3 className="comrade">COMRADE</h3>
+
+        <div className="main-two">
+          <a href="navBar">click here</a>
+          <p className="line-main"></p>
+        </div>
+      </div>
     </div>
   );
 };

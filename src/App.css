@@ -12,14 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-body{
-  background-image: url('../images/back1.png') ;  
+body{/* 
+  background-image: url('/public/bg-03.png') ;   */
   background-repeat: repeat;
   background-size: cover;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0E0B2F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

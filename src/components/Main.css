@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
 
+
 .main{
-    color: white; /* text-align: center; */ align-items: center; display: grid; place-items: center; padding-top: 8px;
+    color: white; /* text-align: center; */ align-items: center; display: grid; place-items: center; padding-top: 8px;    /* background-image: url('/images/bg-3.png'); */
+
 }
 .main-1{
     font-size: 120px; font-family: 'Syne', sans-serif; padding-top: 112px; margin: 0; color: rgb(12, 240, 252);
@@ -19,13 +21,13 @@
     gap: 17px;
     margin-top: 200px;
 }
-.main-two h3{
+.main-two a{
+    font-size: 20px;
     font-family: "Syne";
-    text-align: center;
-    margin: 2px -51px;
+    margin-left: -4pc;
 }
 .line-main{
-    border-left: 6px solid white;
+    border-left: 3px solid white;
     height: 57px;
     position:absolute;
 }
