@@ -1,5 +1,5 @@
 import "./App.css";
-import Main from "./components/Main";
+
 import Navbar from "./components/Navbar";
 import Info from "./components/Info";
 import { Route, Routes } from "react-router-dom";
@@ -13,14 +13,16 @@ function App() {
   return (
     <div>
       <img src="./images/back.svg" alt="" />
-      <Navbar />
+
       <Routes>
         <Route path="/signup" element={<Signup />} />
       </Routes>
+      <Navbar />
+
       {/* <Route path="/" element={<Main />} />
         <Route path="/" element={<Info />} />
         <Route path="/" element={<Verification />} /> */}
-      <Main />
+      {/*  <Main /> */}
       <Info />
       <Verification />
       <Volunteer />

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css";
+import "./Main.css";
+
 import Signup from "./Signup";
 import AOS from "aos";
 import { useEffect } from "react";
