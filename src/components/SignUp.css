@@ -5,17 +5,34 @@
     /* font-family:'poppins'; */
     transition: all 0.2s linear;
 }
+.form-container form img{
+    max-height: 18px;
+    margin-left: 709px;
+    margin-bottom: -22px;
+}
+.c-height{
+    height: 40px;
+}
+.c-height-1{
+    height: 47px;
+}
+
 .form-container{
     min-height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
+     position: fixed; 
     
 }
+.login-alt{ 
+     text-align:  " center";
+     color: white;
+ }
+
 .form-container form{
-    height: 450px;
+    height: 502px;
     width: 800px;
     background: rgba(255, 255, 255, 0.1);
     text-align: center;

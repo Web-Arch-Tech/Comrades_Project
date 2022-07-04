@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const changeBack = () => (document.body.style.opacity = 0.5);
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -42,7 +43,7 @@ const Navbar = () => {
           </div>
           <div className="btn">
             <Link to="/signup">
-              <button>Sign Up</button>
+              <button onClick={changeBack}>Sign Up</button>
             </Link>
           </div>
           <img src="/menu.png" alt="" />

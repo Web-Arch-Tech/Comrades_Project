@@ -7,11 +7,16 @@ const Volunteer = () => {
       <h1 className="info-line-1">volunteer's</h1>
       <h1 className="info-line-2">countdown</h1>
       <div className="container-counter">
-        <div className="day">
-          <div className="info-day"></div>
-        </div>
-        <div className="volunteer-new"></div>
-        <div className="year"></div>
+        <h1>01</h1>
+        <h1 className="vol-2">10</h1>
+
+        <h1>{new Date().getFullYear()}</h1>
+        <h1>DAY</h1>
+
+        <h1 className="vol-1">VOLUNTEER</h1>
+        <h1>YEAR</h1>
+
+        <div className="year-content"></div>
       </div>
 
       <div className="square-box-new-one">

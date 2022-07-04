@@ -33,12 +33,21 @@
     margin-left: 437px;
     margin-top: 104px;
     border-radius: 31px;
-    display: flex;
+    display: grid;
+    color: white;
+    padding-top: 21px;
+    padding-left: 114px;
+    grid-template-columns: repeat(3,1fr);
     background-color: white /* rgba(46, 240, 194, 1) ;*/
 
 
 }
-
+.vol-1{
+    padding-right: 122px;
+}
+.vol-2{
+    padding-left: 50px;
+}
 
  .day{
     border-left: 2px solid white;
