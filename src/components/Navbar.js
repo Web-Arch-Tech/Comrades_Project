@@ -10,7 +10,11 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const changeBack = () => (document.body.style.opacity = 0.5);
+  const toggle = () => {
+    document.getElementById("comrade-nav").style.opacity = 0;
+    document.getElementById("image-nav").style.opacity = 0;
+    document.body.style.overflow = "hidden";
+  };
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -43,7 +47,7 @@ const Navbar = () => {
           </div>
           <div className="btn">
             <Link to="/signup">
-              <button onClick={changeBack}>Sign Up</button>
+              <button onClick={toggle}>Sign Up</button>
             </Link>
           </div>
           <img src="/menu.png" alt="" />
@@ -52,9 +56,11 @@ const Navbar = () => {
 
       <div className="main" data-aos="zoom-in">
         {/* <p className="main-1">Together</p> */}
-        <img src="/king.png" alt="" />
+        <img src="/king.png" id="image-nav" alt="" />
 
-        <h3 className="comrade">COMRADE</h3>
+        <h3 className="comrade" id="comrade-nav">
+          COMRADE
+        </h3>
 
         <div className="main-two">
           <a href="navBar">click here</a>

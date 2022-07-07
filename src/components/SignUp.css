@@ -2,19 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family:'poppins'; */
+    font-family:'poppins',sans-serif;
     transition: all 0.2s linear;
 }
-.form-container form img{
+ .signup-cancel{
     max-height: 18px;
     margin-left: 709px;
     margin-bottom: -22px;
-}
+} 
 .c-height{
-    height: 40px;
+    height: 24px;
 }
 .c-height-1{
-    height: 47px;
+    height: 28px;
+    margin-top: -3px;
+
 }
 
 .form-container{
@@ -29,12 +31,13 @@
 .login-alt{ 
      text-align:  " center";
      color: white;
+     margin-top: 15px;
  }
 
 .form-container form{
     height: 502px;
     width: 800px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(255,255,255,0.06);
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -68,6 +71,12 @@ letter-spacing: 3px;
     padding:  0 10px;
     margin: 15px 0;
     letter-spacing: 1px;
+}
+.signup-images{
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+    margin-top: 28px;
 }
 .form-container form input[type="submit"]{
     width: 90%;

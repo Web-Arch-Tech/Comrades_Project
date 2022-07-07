@@ -3,6 +3,7 @@ nav{
     display: flex;
     color: white;
     padding-top: 20px;
+
    
 }
 #navBar{
@@ -15,6 +16,9 @@ nav{
     background-size: cover;
     height: 150vh;
 }
+
+
+
 .right{
     display: flex;
     gap: 54px;
@@ -39,6 +43,10 @@ button{
     margin: -6px 0px;
   /*   font-family: "Syne"; */
     cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
 }
 .right img{
     display: none;
