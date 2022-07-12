@@ -11,8 +11,10 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const toggle = () => {
-    document.getElementById("comrade-nav").style.opacity = 0;
-    document.getElementById("image-nav").style.opacity = 0;
+    document.getElementById("comrade-nav").style.display = 'none';
+    
+    document.getElementById("image-nav").style.display = 'none';
+    document.getElementById("click").style.display = 'none';
     document.body.style.overflow = "hidden";
   };
   useEffect(() => {
@@ -54,7 +56,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <div className="main" data-aos="zoom-in">
+      <div className="main" >
         {/* <p className="main-1">Together</p> */}
         <img src="/king.png" id="image-nav" alt="" />
 
@@ -62,7 +64,7 @@ const Navbar = () => {
           COMRADE
         </h3>
 
-        <div className="main-two">
+        <div className="main-two" id="click">
           <a href="navBar">click here</a>
           <p className="line-main"></p>
         </div>
