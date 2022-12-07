@@ -20,7 +20,7 @@ const Signup = () => {
 
         <h3 className="get">Get Started</h3>
 
-        <input type="text" onClick={changeEvent} placeholder="Username" id="" />
+        <input type="text" onClick={changeEvent} placeholder="Name" id="" />
         <input type="email" onClick={changeEvent} id="" placeholder="Email" />
         <input
           type="password"

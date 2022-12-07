@@ -11,10 +11,16 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const toggle = () => {
+
     document.getElementById("comrade-nav").style.display = 'none';
     
     document.getElementById("image-nav").style.display = 'none';
     document.getElementById("click").style.display = 'none';
+
+    document.getElementById("comrade-nav").style.display = "none";
+    document.getElementById("image-nav").style.display = "none";
+    document.getElementById("click-here").style.display = "none";
+
     document.body.style.overflow = "hidden";
   };
   useEffect(() => {
@@ -64,8 +70,13 @@ const Navbar = () => {
           COMRADE
         </h3>
 
+
         <div className="main-two" id="click">
           <a href="navBar">click here</a>
+
+        <div className="main-two" id="click-here">
+          <a href="info">click here</a>
+
           <p className="line-main"></p>
         </div>
       </div>
